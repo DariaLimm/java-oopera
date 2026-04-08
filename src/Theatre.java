@@ -8,8 +8,8 @@ public class Theatre {
         Actor actor3 = new Actor("Елизавета", "Валина", Gender.FEMALE, 1.7);
         Director director1 = new Director("Дарья", "Борсук", Gender.FEMALE, 47);
         Director director2 = new Director("Антон", "Силкин", Gender.MALE, 19);
-        String musicAuthor1 = "Воцарт";
-        String choreographer2 = "Мирель";
+        Person musicAuthor1 = new Person("Воцарт", "Рель", Gender.MALE);
+        Person choreographer2 = new Person("Мирель", "Ван", Gender.MALE);
 
         Show show = new Show("Миг", 90, director2);
         Opera opera = new Opera("Тишина", 79, director1, musicAuthor1, "Нам пора уходить. Рассекает стекло серебристая нить. Навсегда истекло наше время давно. Переменим режим.", 11);
